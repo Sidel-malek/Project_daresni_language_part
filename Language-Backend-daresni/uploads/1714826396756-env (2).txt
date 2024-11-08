@@ -1,0 +1,3 @@
+JWT_SECRET='Very$secret'
+BASE_URL=https://localhost:3000
+    

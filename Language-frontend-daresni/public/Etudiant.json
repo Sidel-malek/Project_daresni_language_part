@@ -1,0 +1,49 @@
+[
+    {
+      "id":1,
+      "nom": "touahri",
+      "prénom": "sara",
+      "numéro de téléphone": "0655555555",
+      "Email": "s.touahri@esi-sba.dz",
+      "niveau d'étude": "Lycée",
+      "année d'étude": "3",
+      "Spécialité": "math"
+    },
+    { "id":2,
+      "nom": "nassane",
+      "prénom": "marwa",
+      "numéro de téléphone": "0655555555",
+      "Email": "marwa.nassane@esi-sba.dz",
+      "niveau d'étude": "Lycée",
+      "année d'étude": "2",
+      "Spécialité": "Science"
+    },
+    { "id":3,
+      "nom": "yahiaoui",
+      "prénom": "meriem",
+      "numéro de téléphone": "0655555555",
+      "Email": "meriem.yahiaoui@esi-sba.dz",
+      "niveau d'étude": "Lycée",
+      "année d'étude": "2",
+      "Spécialité": "math"
+    },
+    { "id":4,
+      "nom": "bakkhoucha",
+      "prénom": "wafaa",
+      "numéro de téléphone": "0987654321",
+      "Email": "wafaa.bakkhoucha@esi-sba.dz",
+      "niveau d'étude": "CEM",
+      "année d'étude": "2"
+      
+    },
+    { "id":5,
+      "nom": "Aya Malak",
+      "prénom": "SIDEL MRABET",
+      "numéro de téléphone": "0987654321",
+      "Email": "jane.smith@example.com",
+      "niveau d'étude": "CEM",
+      "année d'étude": "4"
+    }
+    
+  ]
+  

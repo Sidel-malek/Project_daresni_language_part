@@ -1,0 +1,67 @@
+[
+    {"id":1,
+      "nom":"Groupe A",
+      "date":"13/03/2024",
+      "module":"Mathématiques",
+      "Tarifs":"2000 DA",
+      "documents":[
+
+      {"id":1,
+        "nom_document":"Exercice de probabilité",
+        "date":"13/03/2024"
+    },
+      {"id":2,
+        "nom_document":"Exercice de probabilité",
+        "date":"13/03/2024"
+    },
+      {"id":3,
+        "nom_document":"cours de probabilité",
+        "date":"13/03/2024"
+    }
+  ]
+},
+    {"id":2,
+      "nom":"Groupe B",
+      "date":"13/03/2024",
+      "module":"Physiaue",
+      "Tarifs":"2000 DA",
+      "documents":[
+
+        {"id":1,
+          "nom_document":"Exercice d'electrique 1",
+          "date":"13/03/2024"
+      },
+        {"id":2,
+          "nom_document":"xercice d'electrique 2",
+          "date":"13/03/2024"
+      },
+        {"id":3,
+          "nom_document":"cours  d'electrique ",
+          "date":"13/03/2024"
+      }
+    ]
+},
+    {"id":3,
+      "nom":"Groupe C",
+      "date":"13/03/2024",
+      "module":"Francais",
+      "Tarifs":"2000 DA",
+      "documents":[
+
+        {"id":1,
+          "nom_document":"Exercice de text historique",
+          "date":"13/03/2024"
+      },
+        {"id":2,
+          "nom_document":"Exemple de compte rendu",
+          "date":"13/03/2024"
+      },
+        {"id":3,
+          "nom_document":"cours de compte rendu",
+          "date":"13/03/2024"
+      }
+    ]
+}
+
+
+]

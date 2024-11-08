@@ -1,0 +1,39 @@
+server:
+  port: 7777
+
+spring:
+  application:
+    name: ms-gateway
+
+  cloud:
+    gateway:
+      routes:
+        - id: route1
+          predicates:
+            - Path=/ms-group/**
+          filters:
+            - RewritePath=/ms-group/(?<s>.*), /${s}
+          uri: lb://ms-group
+
+        - id: route2
+          predicates:
+            - Path=/auth-service/**
+          filters:
+            - RewritePath=/auth-service/(?<s>.*), /${s}
+          uri: lb://AUTH-SERVICE
+
+        - id: route3
+          predicates:
+            - Path=/arabeLanguage/**
+          filters:
+            - RewritePath=/arabeLanguage/(?<s>.*), /${s}
+          uri: lb://ms-ArabeLanguage
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8888/eureka
+
+

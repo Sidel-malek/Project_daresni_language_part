@@ -1,0 +1,74 @@
+[   
+
+    {"id":1,
+    "photodeprofil":"./person1.jpg",
+      "nom": "Doe",
+      "prénom": "John",
+      "numtel": "0655555555",
+      "email": "john.doe@example.com",
+      "wilaya": "Alger",
+      "commune": "Alger Centre",
+      "établissement": "Université d'Alger",
+      "session":[{
+        "nom de module": "Mathématiques",
+      "niveau détude": "cem",
+      "année détude": "4eme",
+      
+      "Durée":"2mois",
+      "NB max":20,
+      "Tarifs":"2000 DA",
+      "Durée de séance":"2h",
+      "nb seances":" 2 séance par semaine",
+      "valide":"Accepté"
+    }],
+      "fichiersjoints": [{"nom":"cv_john_doe.pdf","photo": "./téléchargement.jpg"},  {"nom":"diplome_john_doe.pdf","photo": "./téléchargement.jpg"}]
+    },
+    { "id":2,
+    "photodeprofil": "./person1.jpg",
+      "nom": "Smith",
+      "prénom": "Jane",
+      "numtel": "0655555555",
+      "email": "jane.smith@example.com",
+      "wilaya": "Oran",
+      "commune": "Oran Centre",
+      "établissement": "Université d'Oran",
+      "session":[{
+        "nom de module": "Mathématiques",
+      "niveau détude": "Lycée",
+      "année détude": "Terminale",
+      "spécialité": "Math",
+      "Durée":"2mois",
+      "NB max":20,
+      "Tarifs":"2000 DA",
+      "Durée de séance":"2h",
+      "nb seances":" 2 séance par semaine",
+      "valide":"Accepté"
+     
+    }],
+      "fichiersjoints": [{"nom":"cv_john_doe.pdf","photo": "./téléchargement.jpg"},  {"nom":"diplome_john_doe.pdf","photo": "./téléchargement.jpg"}]
+     },
+    { "id":3,
+    "photodeprofil": "./person1.jpg",
+      "nom": "Garcia",
+      "prénom": "Maria",
+      "numtel": "0655555555",
+      "email": "maria.garcia@example.com",
+      "wilaya": "Constantine",
+      "commune": "Constantine Centre",
+      "établissement": "Université de Constantine",
+      "session":[{
+        "nom de module": "Mathématiques",
+      "niveau détude": "Lycée",
+      "année détude": "Terminale",
+      "spécialité": "Math",
+      "Durée":"2mois",
+      "NB max":20,
+      "Tarifs":"2000 DA",
+      "Durée de séance":"2h",
+      "nb seances":" 2 séance par semaine",
+      "valide":"non-traité"
+    }],
+      "fichiersjoints": [{"nom":"cv_john_doe.pdf","photo": "./téléchargement.jpg"},  {"nom":"diplome_john_doe.pdf","photo": "./téléchargement.jpg"}]
+    }
+  ]
+  
